@@ -1,10 +1,9 @@
 <?php
 /**
- * Add-New-Page Plugin: a simple form for adding new pages.
+ * Add-New-Page (Deluxe) Plugin: a simple form for adding new pages.
  *
  * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)
- * @author   iDO <ido@idotech.info>
- * @author   Sam Wilson <sam@samwilson.id.au>
+ * @author   Bjoern Ellebrecht <development@c0de8.com>
  *
  * @noinspection PhpUnused,
  *               PhpMissingParamTypeInspection, PhpMissingReturnTypeInspection
@@ -15,7 +14,7 @@ use dokuwiki\File\PageResolver;
 
 if(!defined('DOKU_INC')) die();
 
-class syntax_plugin_addnewpage extends DokuWiki_Syntax_Plugin {
+class syntax_plugin_addnewpagedeluxe extends DokuWiki_Syntax_Plugin {
 
     /**
      * Syntax Type
@@ -105,7 +104,8 @@ class syntax_plugin_addnewpage extends DokuWiki_Syntax_Plugin {
 
             $newpagetemplateinput = $this->_htmlTemplateInput($data['newpagetemplates']);
 
-            $form = '<div class="addnewpage"><p>'
+            $form = '<div class="addnewpage">'
+                . $this->getLang('okbutton') . '<p>'
                 . '<form name="addnewpage" method="get" action="' . DOKU_BASE . DOKU_SCRIPT . '" accept-charset="' . $lang['encoding'] . '">'
                 . $namespaceinput
                 . '<input class="edit" type="text" name="title" size="20" maxlength="255" tabindex="2" />'

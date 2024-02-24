@@ -6,5 +6,6 @@
  * @author Michael <michael.kraemer@gmail.com>
  */
 $lang['namespaceRoot']         = ':Wurzel';
+$lang['newpage']               = 'Neue Seite';
 $lang['okbutton']              = 'Seite hinzufügen';
 $lang['nooption']              = 'Du besitzt nicht die Benutzerrechte um Seiten hinzuzufügen.';

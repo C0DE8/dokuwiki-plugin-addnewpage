@@ -7,5 +7,6 @@
  * @author Michael <michael@krmr.org>
  */
 $lang['namespaceRoot']         = 'Wurzel';
+$lang['newpage']               = 'Neue Seite';
 $lang['okbutton']              = 'Seite hinzufügen';
 $lang['nooption']              = 'Du besitzt nicht die Benutzerrechte um Seiten hinzuzufügen.';

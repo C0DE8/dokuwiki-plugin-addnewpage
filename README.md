@@ -1,10 +1,11 @@
-# Add New Page Plugin for DokuWiki
+# Add New Page (Deluxe) Plugin for DokuWiki
 
-Copyright (c) 2006 Benjamin Santalucia <ben@santalucia.me>  
-Copyright (c) 2013 Sam Wilson <sam@samwilson.id.au>  
-Copyright (c) 2023 Damien Regad <dregad@mantisbt.org>
+Copyright (c) 2024 Bjoern Ellebrecht <development@c0de8.com>
 
-The plugin lets users put *add new page* forms within pages, with optional namespace selection.
+(forked from Damien Regad https://github.com/dregad/dokuwiki-plugin-addnewpage)
+
+The plugin lets users put *add new page* (deluxe version) forms within pages, 
+with optional namespace selection.
 
 ## License
 
@@ -28,7 +29,7 @@ for information on how to install, configure and use this plugin in DokuWiki.
 ## Support
 
 Source code and support for this plugin can be found at
-<https://github.com/dregad/dokuwiki-plugin-addnewpage>
+<https://github.com/C0DE8/dokuwiki-plugin-addnewpage>
 
 ## Credits
 
@@ -44,5 +45,7 @@ During this time, he merged several improvements and fixes contributed by these 
 - [Albert Chern](https://github.com/achern), disabling of restricted parent namespaces in 2015
 
 In May 2023, [Damien Regad](https://github.com/dregad) decided to take over the plugin's maintenance.
+
+Forked from [Bjoern Ellebrecht](https://github.com/c0de8) in February 2024 to create an deluxe version.
 
 Thanks to [all the people who contributed](https://github.com/dregad/dokuwiki-plugin-addnewpage/graphs/contributors) to this plugin over the years.
