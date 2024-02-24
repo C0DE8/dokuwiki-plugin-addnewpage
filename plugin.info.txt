@@ -4,4 +4,4 @@ author Bjoern Ellebrecht
 email  2024-02-24
 name   Add New Page plugin (deluxe version)
 desc   Adds a "new page form" to any wiki page or add to template
-#url    https://www.dokuwiki.org/plugin:addnewpage
+#url    https://www.dokuwiki.org/plugin:addnewpagedeluxe
