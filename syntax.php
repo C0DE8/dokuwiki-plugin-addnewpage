@@ -14,8 +14,8 @@ use dokuwiki\File\PageResolver;
 
 if(!defined('DOKU_INC')) die();
 
-class syntax_plugin_addnewpagedeluxe extends DokuWiki_Syntax_Plugin {
-
+class syntax_plugin_addnewpagedeluxe extends DokuWiki_Syntax_Plugin
+{
     /**
      * Syntax Type
      */
@@ -105,7 +105,7 @@ class syntax_plugin_addnewpagedeluxe extends DokuWiki_Syntax_Plugin {
             $newpagetemplateinput = $this->_htmlTemplateInput($data['newpagetemplates']);
 
             $form = '<div class="addnewpage">'
-                . $this->getLang('okbutton') . '<p>'
+                 .  '<label>' . $this->getLang('newpage') . ': </label>'
                 . '<form name="addnewpage" method="get" action="' . DOKU_BASE . DOKU_SCRIPT . '" accept-charset="' . $lang['encoding'] . '">'
                 . $namespaceinput
                 . '<input class="edit" type="text" name="title" size="20" maxlength="255" tabindex="2" />'
@@ -115,7 +115,7 @@ class syntax_plugin_addnewpagedeluxe extends DokuWiki_Syntax_Plugin {
                 . '<input type="hidden" name="id" />'
                 . '<input class="button" type="submit" value="' . $this->getLang('okbutton') . '" tabindex="4" />'
                 . '</form>'
-                . '</p></div>';
+                . '</div>';
 
             $renderer->doc .= $form;
 
@@ -199,6 +199,11 @@ class syntax_plugin_addnewpagedeluxe extends DokuWiki_Syntax_Plugin {
         if (!empty($dest_ns)) {
             $ancestor_stack[] = $dest_ns;
         }
+echo '<!-- ';
+        print_r($dest_ns);
+echo "\n";
+        print_r($subnamespaces);
+echo ' -->';
 
         foreach($subnamespaces as $ns) {
 
