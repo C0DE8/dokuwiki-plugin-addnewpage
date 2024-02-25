@@ -1,6 +1,6 @@
 # Add New Page (Deluxe) Plugin for DokuWiki
 
-Copyright (c) 2024 Bjoern Ellebrecht <development@c0de8.com>
+Copyright (c) 2024 Bjoern Ellebrecht <dokuwiki.development@c0de8.com>
 
 (forked from Damien Regad https://github.com/dregad/dokuwiki-plugin-addnewpage)
 
