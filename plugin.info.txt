@@ -1,6 +1,6 @@
 # General Plugin Info
 base   addnewpagedeluxe
-author Bjoern Ellebrecht
+author Björn Ellebrecht
 email  dokuwiki.development@c0de8.com
 date   2024-02-29
 name   Add New Page plugin (deluxe version)
