@@ -1,5 +1,8 @@
 # Add New Page (Deluxe) Plugin for DokuWiki
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/C0DE8/dokuwiki-plugin-addnewpagedeluxe/graphs/commit-activity)
+[![Github all releases](https://img.shields.io/github/downloads/C0DE8/dokuwiki-plugin-addnewpagedeluxe/total.svg)](https://gitbub.com/C0DE8/dokuwiki-plugin-addnewpagedeluxe/releases/)
+
 Copyright (c) 2024 Bjoern Ellebrecht <dokuwiki.development@c0de8.com>
 
 (forked from Damien Regad https://github.com/dregad/dokuwiki-plugin-addnewpage)
